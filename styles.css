@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#btn-grid{
+    align-self:center;
+}
+.grid{
+    align-self: center;
+    display: flex;
+    width: 960px;
+    height: 960px;
+    border-style: solid;
+    border-color: black;
+    flex-direction: column;
+}
+
+.grid-row{
+    flex: 1;
+    border-style: solid;
+    border-color: yellow;
+    display: flex;
+}
+
+.grid-col{
+    flex: 1;
+    border-style: solid;
+    border-color: yellow;
+}
+
+.black{
+    background-color: black;
+}
