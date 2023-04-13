@@ -19,6 +19,7 @@ body{
 
 .grid-row{
     flex: 1;
+    border: 0px;
     border-style: solid;
     border-color: yellow;
     display: flex;
@@ -26,6 +27,7 @@ body{
 
 .grid-col{
     flex: 1;
+    border: 0px;
     border-style: solid;
     border-color: yellow;
 }

@@ -8,6 +8,7 @@ function createGrid(){
         console.log(input)
         const gridRow = document.createElement('div')
         gridRow.classList.add('grid-row')
+        
         grid.appendChild(gridRow)
     }
     const gridRows=document.querySelectorAll('.grid-row')
@@ -17,9 +18,14 @@ function createGrid(){
         for(i =0; i<gridSize;i++){
             const gridCol = document.createElement('div')
             gridCol.classList.add('grid-col')
+            gridCol.addEventListener('mouseover' ,function(){addHoverEffect(gridCol)})
             row.appendChild(gridCol)
 }
 })
+}
+
+function addHoverEffect(gridRow){
+    gridRow.classList.add('black')
 }
 
 
